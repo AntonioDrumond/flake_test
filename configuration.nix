@@ -104,15 +104,6 @@
     # Firefox
     firefox.enable = true;
 
-    # Steam
-    steam = {
-      enable = true;
-      remotePlay.openFirewall = true;
-      extraCompatPackages = with pkgs; [
-        proton-ge-bin
-      ];
-    };
-
     # Starship
     starship = {
       enable = true;
@@ -147,8 +138,6 @@
 		android_sdk.accept_license = true;
   };
 
-
-
   nix.gc = {
     automatic = true;
     dates = "weekly";
@@ -180,26 +169,11 @@
 
     #Image stuff
     pix
-    rawtherapee
     krita
     vlc
 
     #Non raw text
     obsidian
-    foliate
-
-    #Torrenting and stuff
-    # qbittorrent
-    # mullvad
-
-    #Nonfree entertainment
-    stremio
-    discord
-    spotify
-
-    #Virtual Machine
-    quickemu
-    spice
 
     #Hardware/Libs
     ventoy-full
@@ -210,16 +184,12 @@
     #Other
     kdePackages.kcalc
     cava
-    floorp
     jetbrains-mono
-    mars-mips
-    jflap
-		android-studio-full
   ];
 
   environment.localBinInPath = true;
 
   # DO NOT CHANGE
-  system.stateVersion = "24.11"; # Did you read the comment?
+  system.stateVersion = "25.05"; # Did you read the comment?
 
 }
