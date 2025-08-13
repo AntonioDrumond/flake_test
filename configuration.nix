@@ -104,6 +104,12 @@
     # Firefox
     firefox.enable = true;
 
+		hyprland = {
+			enable = true;
+			xwayland.enable = true;
+		};
+		hyprlock.enable = true;
+
     # Starship
     starship = {
       enable = true;
