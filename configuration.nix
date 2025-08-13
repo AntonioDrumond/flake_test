@@ -166,6 +166,12 @@
 		# neovim
     # inputs.nixvim.packages.${pkgs.system}.default # NixVim
 
+		# Hyprland
+		waybar
+		hyprcursor
+		hyprshot
+		hyprpaper
+
     #CLI -> Pretty and shiny :D
     bat
     tree
